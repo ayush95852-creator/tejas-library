@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="TEJAS LIBRARY - Premium Self Study Library for SSC, Banking, Railway, UPSC, BPSC, JEE, NEET, CUET and all Competitive Exams. 24×7 Open, 500+ Students, High-Speed WiFi, CCTV Security.">
+    <meta name="keywords" content="study library, competitive exams, self study, coaching center, SSC, Banking, Railway, UPSC, BPSC, JEE, NEET, CUET">
+    <meta name="author" content="TEJAS LIBRARY">
+    <meta name="theme-color" content="#0F0F10">
+    <meta property="og:title" content="TEJAS LIBRARY - Premium Self Study Library">
+    <meta property="og:description" content="Study Smart. Stay Focused. Achieve Success.">
+    <meta property="og:image" content="/images/og-image.jpg">
+    <meta property="og:url" content="https://tejaslibrary.in">
+    <title>TEJAS LIBRARY - Premium Self Study Library | 24×7 Open</title>
+    
+    <!-- Preload Fonts -->
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap" as="style">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Animate On Scroll -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Loading Animation -->
+    <div id="loading" class="loading-container">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Scroll Progress Indicator -->
+    <div id="scroll-progress" class="scroll-progress"></div>
+
+    <!-- Navbar -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-icon">⊕</span>
+                <h1>TEJAS</h1>
+            </div>
+            
+            <div class="nav-menu" id="nav-menu">
+                <a href="#hero" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#facilities" class="nav-link">Facilities</a>
+                <a href="#pricing" class="nav-link">Plans</a>
+                <a href="#timings" class="nav-link">Timings</a>
+                <a href="#exams" class="nav-link">Exams</a>
+                <a href="#testimonials" class="nav-link">Reviews</a>
+                <a href="#faq" class="nav-link">FAQ</a>
+                <a href="#contact" class="nav-link contact-nav">Contact</a>
+            </div>
+
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <section id="hero" class="hero">
+        <div class="hero-background"></div>
+        
+        <div class="hero-content" data-aos="fade-up">
+            <h1 class="hero-title">Study Smart.<br>Stay Focused.<br>Achieve Success.</h1>
+            <p class="hero-subtitle">Premium Self Study Library for SSC, Banking, Railway, UPSC, BPSC, JEE, NEET, CUET and all Competitive Exams.</p>
+            
+            <div class="hero-buttons">
+                <button class="btn btn-primary" data-scroll="pricing">Book Your Seat</button>
+                <button class="btn btn-secondary" onclick="scrollToContact()">Contact Now</button>
+            </div>
+        </div>
+
+        <!-- Floating Stats -->
+        <div class="floating-stats">
+            <div class="stat-card" data-aos="fade-up" data-aos-delay="100">
+                <span class="stat-icon">👥</span>
+                <p class="stat-value">500+</p>
+                <p class="stat-label">Students</p>
+            </div>
+            <div class="stat-card" data-aos="fade-up" data-aos-delay="200">
+                <span class="stat-icon">🕐</span>
+                <p class="stat-value">24×7</p>
+                <p class="stat-label">Open</p>
+            </div>
+            <div class="stat-card" data-aos="fade-up" data-aos-delay="300">
+                <span class="stat-icon">⚡</span>
+                <p class="stat-value">Fiber</p>
+                <p class="stat-label">High-Speed WiFi</p>
+            </div>
+            <div class="stat-card" data-aos="fade-up" data-aos-delay="400">
+                <span class="stat-icon">🔒</span>
+                <p class="stat-value">24/7</p>
+                <p class="stat-label">CCTV Security</p>
+            </div>
+            <div class="stat-card" data-aos="fade-up" data-aos-delay="500">
+                <span class="stat-icon">🔋</span>
+                <p class="stat-value">100%</p>
+                <p class="stat-label">Power Backup</p>
+            </div>
+            <div class="stat-card" data-aos="fade-up" data-aos-delay="600">
+                <span class="stat-icon">🌿</span>
+                <p class="stat-value">Serene</p>
+                <p class="stat-label">Peaceful Environment</p>
+            </div>
+        </div>
+
+        <!-- Scroll Indicator -->
+        <div class="scroll-indicator">
+            <div class="scroll-mouse">
+                <span></span>
+            </div>
+            <p>Scroll to explore</p>
+        </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">Why Choose TEJAS LIBRARY?</h2>
+                <div class="title-underline"></div>
+            </div>
+
+            <div class="about-content">
+                <div class="about-text" data-aos="fade-right">
+                    <h3>Excellence in Self-Study</h3>
+                    <p>TEJAS LIBRARY is not just a place to study—it's a sanctuary for focused, disciplined learning. We understand that consistent effort, unwavering focus, and a distraction-free environment are the cornerstones of exam success.</p>
+                    
+                    <div class="about-points">
+                        <div class="point">
+                            <span class="point-icon">✓</span>
+                            <div>
+                                <h4>Discipline & Consistency</h4>
+                                <p>A structured environment that fosters daily commitment and unshakeable study habits.</p>
+                            </div>
+                        </div>
+                        <div class="point">
+                            <span class="point-icon">✓</span>
+                            <div>
+                                <h4>Absolute Focus</h4>
+                                <p>Zero distractions, peaceful ambiance, and premium study cabins designed for deep learning.</p>
+                            </div>
+                        </div>
+                        <div class="point">
+                            <span class="point-icon">✓</span>
+                            <div>
+                                <h4>Comfort Meets Productivity</h4>
+                                <p>Premium chairs, ergonomic desks, and climate-controlled spaces for maximum comfort.</p>
+                            </div>
+                        </div>
+                        <div class="point">
+                            <span class="point-icon">✓</span>
+                            <div>
+                                <h4>Exam Success</h4>
+                                <p>Proven track record of students clearing competitive exams with exceptional marks.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="about-image" data-aos="fade-left">
+                    <div class="image-placeholder">
+                        <svg viewBox="0 0 400 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="400" height="500" fill="#1a1a1a"/>
+                            <circle cx="200" cy="150" r="80" fill="#0E9F6E" opacity="0.3"/>
+                            <rect x="100" y="250" width="200" height="150" fill="#0E9F6E" opacity="0.2" rx="10"/>
+                            <text x="200" y="480" font-family="Inter" font-size="16" fill="#B5B5B5" text-anchor="middle">Premium Study Environment</text>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FACILITIES SECTION -->
+    <section id="facilities" class="facilities">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">Premium Facilities</h2>
+                <p class="section-subtitle">Everything you need for focused, productive studying</p>
+                <div class="title-underline"></div>
+            </div>
+
+            <div class="facilities-grid">
+                <div class="facility-card" data-aos="fade-up">
+                    <div class="facility-icon">🕐</div>
+                    <h3>24×7 Open</h3>
+                    <p>Study anytime, anywhere. Round-the-clock access to support your flexible schedule.</p>
+                </div>
+                <div class="facility-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="facility-icon">❄️</div>
+                    <h3>Air Conditioned</h3>
+                    <p>Climate-controlled environment for optimal comfort and concentration.</p>
+                </div>
+                <div class="facility-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="facility-icon">🔖</div>
+                    <h3>Individual Study Cabins</h3>
+                    <p>Private, soundproof cabins designed for distraction-free deep learning.</p>
+                </div>
+                <div class="facility-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="facility-icon">⚡</div>
+                    <h3>High-Speed WiFi</h3>
+                    <p>Fiber-optic connectivity for seamless online learning and research.</p>
+                </div>
+                <div class="facility-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="facility-icon">💧</div>
+                    <h3>RO Drinking Water</h3>
+                    <p>Pure, filtered water dispensers available throughout the facility.</p>
+                </div>
+                <div class="facility-card" data-aos="fade-up" data-aos-delay="500">
+                    <div class="facility-icon">🪑</div>
+                    <h3>Comfortable Chairs</h3>
+                    <p>Ergonomic seating designed for long study sessions without fatigue.</p>
+                </div>
+                <div class="facility-card" data-aos="fade-up" data-aos-delay="600">
+                    <div class="facility-icon">🔌</div>
+                    <h3>Charging Points</h3>
+                    <p>Multiple USB and power outlets at every study station.</p>
+                </div>
+                <div class="facility-card" data-aos="fade-up" data-aos-delay="700">
+                    <div class="facility-icon">🔋</div>
+                    <h3>Power Backup</h3>
+                    <p>100% backup power supply ensures uninterrupted study sessions.</p>
+                </div>
+                <div class="facility-card" data-aos="fade-up" data-aos-delay="800">
+                    <div class="facility-icon">🔒</div>
+                    <h3>CCTV Security</h3>
+                    <p>24/7 surveillance for complete safety and security of all students.</p>
+                </div>
+                <div class="facility-card" data-aos="fade-up" data-aos-delay="900">
+                    <div class="facility-icon">🤫</div>
+                    <h3>Silent Study Zone</h3>
+                    <p>Dedicated quiet areas for absolute concentration and focused studying.</p>
+                </div>
+                <div class="facility-card" data-aos="fade-up" data-aos-delay="1000">
+                    <div class="facility-icon">✨</div>
+                    <h3>Daily Cleaning</h3>
+                    <p>Hygienic environment with professional cleaning twice daily.</p>
+                </div>
+                <div class="facility-card" data-aos="fade-up" data-aos-delay="1100">
+                    <div class="facility-icon">🚻</div>
+                    <h3>Separate Washrooms</h3>
+                    <p>Clean, well-maintained facilities for maximum convenience.</p>
+                </div>
+                <div class="facility-card" data-aos="fade-up" data-aos-delay="1200">
+                    <div class="facility-icon">🗃️</div>
+                    <h3>Lockers</h3>
+                    <p>Secure storage for your personal belongings and study materials.</p>
+                </div>
+                <div class="facility-card" data-aos="fade-up" data-aos-delay="1300">
+                    <div class="facility-icon">📋</div>
+                    <h3>Attendance Tracking</h3>
+                    <p>Digital attendance system to monitor study consistency and progress.</p>
+                </div>
+                <div class="facility-card" data-aos="fade-up" data-aos-delay="1400">
+                    <div class="facility-icon">📰</div>
+                    <h3>Newspapers & Magazines</h3>
+                    <p>Latest publications for current affairs and GK preparation.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PRICING SECTION -->
+    <section id="pricing" class="pricing">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">Membership Plans</h2>
+                <p class="section-subtitle">Choose the perfect plan for your success</p>
+                <div class="title-underline"></div>
+            </div>
+
+            <div class="pricing-grid">
+                <div class="pricing-card" data-aos="fade-up">
+                    <div class="pricing-header">
+                        <h3>Starter</h3>
+                        <div class="price">₹999<span>/month</span></div>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><span>✓</span>High-Speed WiFi</li>
+                        <li><span>✓</span>Study Cabin Access</li>
+                        <li><span>✓</span>RO Drinking Water</li>
+                        <li><span>✓</span>Charging Points</li>
+                        <li><span>✓</span>24/7 CCTV Security</li>
+                        <li><span>✓</span>Peaceful Environment</li>
+                    </ul>
+                    <button class="btn btn-secondary-outline">Get Started</button>
+                </div>
+
+                <div class="pricing-card popular" data-aos="fade-up" data-aos-delay="100">
+                    <div class="popular-badge">Most Popular</div>
+                    <div class="pricing-header">
+                        <h3>Premium</h3>
+                        <div class="price">₹1999<span>/month</span></div>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><span>✓</span>High-Speed WiFi</li>
+                        <li><span>✓</span>Private Study Cabin</li>
+                        <li><span>✓</span>RO Drinking Water</li>
+                        <li><span>✓</span>Charging Points</li>
+                        <li><span>✓</span>24/7 CCTV Security</li>
+                        <li><span>✓</span>Priority Support</li>
+                        <li><span>✓</span>Monthly Progress Reports</li>
+                        <li><span>✓</span>Exam Preparation Guidance</li>
+                    </ul>
+                    <button class="btn btn-primary">Book Now</button>
+                </div>
+
+                <div class="pricing-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="pricing-header">
+                        <h3>Standard</h3>
+                        <div class="price">₹1499<span>/month</span></div>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><span>✓</span>High-Speed WiFi</li>
+                        <li><span>✓</span>Study Cabin Access</li>
+                        <li><span>✓</span>RO Drinking Water</li>
+                        <li><span>✓</span>Charging Points</li>
+                        <li><span>✓</span>24/7 CCTV Security</li>
+                        <li><span>✓</span>Flexible Timings</li>
+                        <li><span>✓</span>Attendance Tracking</li>
+                    </ul>
+                    <button class="btn btn-secondary-outline">Choose Plan</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TIMINGS SECTION -->
+    <section id="timings" class="timings">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">Shift Timings</h2>
+                <p class="section-subtitle">Open 24×7 for your convenience</p>
+                <div class="title-underline"></div>
+            </div>
+
+            <div class="timings-content">
+                <div class="timings-cards">
+                    <div class="timing-card" data-aos="fade-right">
+                        <div class="timing-icon">🌅</div>
+                        <h3>Morning Shift</h3>
+                        <p class="timing">6:00 AM – 12:00 PM</p>
+                        <p class="timing-desc">Start your day with focused preparation</p>
+                    </div>
+                    <div class="timing-card" data-aos="fade-right" data-aos-delay="100">
+                        <div class="timing-icon">☀️</div>
+                        <h3>Afternoon Shift</h3>
+                        <p class="timing">12:00 PM – 6:00 PM</p>
+                        <p class="timing-desc">Mid-day revision and practice sessions</p>
+                    </div>
+                    <div class="timing-card" data-aos="fade-right" data-aos-delay="200">
+                        <div class="timing-icon">🌆</div>
+                        <h3>Evening Shift</h3>
+                        <p class="timing">6:00 PM – 12:00 AM</p>
+                        <p class="timing-desc">Comprehensive study and mock tests</p>
+                    </div>
+                    <div class="timing-card" data-aos="fade-right" data-aos-delay="300">
+                        <div class="timing-icon">🌙</div>
+                        <h3>Night Shift</h3>
+                        <p class="timing">12:00 AM – 6:00 AM</p>
+                        <p class="timing-desc">Deep focus hours for advanced learners</p>
+                    </div>
+                </div>
+
+                <div class="open-24-7" data-aos="zoom-in">
+                    <div class="glow"></div>
+                    <h2>OPEN<br>24×7</h2>
+                    <p>Never miss a study session</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- STUDY SCHEDULE SECTION -->
+    <section id="schedule" class="schedule">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">Daily Study Schedule</h2>
+                <p class="section-subtitle">Structured approach to exam success</p>
+                <div class="title-underline"></div>
+            </div>
+
+            <div class="schedule-timeline">
+                <div class="timeline-item" data-aos="fade-up">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>🌅 Morning Motivation</h3>
+                        <p>6:00 AM - 7:00 AM</p>
+                        <p class="timeline-desc">Energize with news updates and current affairs</p>
+                    </div>
+                </div>
+                <div class="timeline-item" data-aos="fade-up" data-aos-delay="1
